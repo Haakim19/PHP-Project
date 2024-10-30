@@ -36,10 +36,3 @@ do {
     $num--;
     echo ("<br>");
 } while ($num > 0);
-
-for ($i = 1; $i <= 10; $i++) {
-    for ($j = 1; $j <= $i; $j++) {
-        echo ("*");
-    }
-    echo ("<br>");
-}
