@@ -34,5 +34,4 @@ $num = 10;
 do {
     echo ($num);
     $num--;
-    echo ("<br>");
 } while ($num > 0);

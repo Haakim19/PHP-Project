@@ -33,6 +33,5 @@ while ($num >= 0) {
 $num = 10;
 do {
     echo ($num);
-    $num--;
-    echo ("<br>");
-} while ($num > 0);
+    $num++;
+} while ($num > 1);

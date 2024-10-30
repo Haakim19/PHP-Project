@@ -17,22 +17,8 @@ if ($avg > 50) {
 } else {
     echo ("<br> Fail");
 }
-echo ("<br>");
 $num = 1;
-while ($num <= 11) {
-    echo str_repeat("*", $num);
-    echo ("<br>");
+while ($num <= 10) {
+    echo ($num);
     $num++;
 }
-$num = 10;
-while ($num >= 0) {
-    echo str_repeat("*", $num);
-    echo ("<br>");
-    $num--;
-}
-$num = 10;
-do {
-    echo ($num);
-    $num--;
-    echo ("<br>");
-} while ($num > 0);

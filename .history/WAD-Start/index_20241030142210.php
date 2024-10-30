@@ -19,7 +19,7 @@ if ($avg > 50) {
 }
 echo ("<br>");
 $num = 1;
-while ($num <= 11) {
+while ($num <= 10) {
     echo str_repeat("*", $num);
     echo ("<br>");
     $num++;
@@ -30,9 +30,3 @@ while ($num >= 0) {
     echo ("<br>");
     $num--;
 }
-$num = 10;
-do {
-    echo ($num);
-    $num--;
-    echo ("<br>");
-} while ($num > 0);
