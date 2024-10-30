@@ -57,7 +57,9 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            margin-left: 10px;
+            margin-left: 40px;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-content: center;
 

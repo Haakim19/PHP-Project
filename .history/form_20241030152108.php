@@ -57,10 +57,7 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            margin-left: 10px;
-            justify-content: center;
-            align-content: center;
-
+            margin-left: 50px;
         }
 
         .form-group button:hover {
@@ -92,7 +89,6 @@
             </div>
             <div class="form-group">
                 <button type="submit">SUBMIT</button>
-                <button type="reset">CLEAR</button>
             </div>
         </form>
     </div>
